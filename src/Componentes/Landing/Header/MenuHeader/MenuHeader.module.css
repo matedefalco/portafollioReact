@@ -1,14 +1,26 @@
 .headerMenu{
     display: flex;
     flex-direction: row;
+    box-sizing: border-box;
     align-items: center;
     justify-content: space-between ;
     width: 75%;
-    
 }
 
 .headerMenu li{
     justify-content: space-around;
     list-style: none;
     padding-right: 5rem;
+}
+
+.headerMenu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
 }
