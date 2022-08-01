@@ -1,0 +1,14 @@
+.headerMenu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between ;
+    width: 75%;
+    
+}
+
+.headerMenu li{
+    justify-content: space-around;
+    list-style: none;
+    padding-right: 5rem;
+}
