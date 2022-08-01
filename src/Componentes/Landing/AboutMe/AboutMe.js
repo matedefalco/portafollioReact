@@ -1,12 +1,11 @@
 import { Fragment } from "react";
-import logo from "../../../logo.svg";
 
 import classes from "./AboutMe.module.css";
 
 const AboutMe = () => {
   return (
     <Fragment>
-      <div className={classes.about}>
+      <div id="About" className={classes.about}>
         <div className={classes.dev}>
           <p>
             Desde 2019 trabajo en el desarrollo web. Me recibí en Digital House como Programador Web Full Stack. Luego de eso, comencé a instruirme en distintos frameworks. Más que nada maquetado de Front End. 

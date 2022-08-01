@@ -1,0 +1,10 @@
+.skillItem{
+    display: flex;
+    flex-direction: column;    
+}
+
+.estrellas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
