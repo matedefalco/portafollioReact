@@ -1,6 +1,7 @@
 .skillItem{
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;   
+    min-width: 200px; 
 }
 
 .estrellas{

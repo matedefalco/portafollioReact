@@ -10,6 +10,7 @@ const Skills = () => {
   return (
     <Fragment>
         <ul className={classes.skills}>
+        <h2 id='skills'>Skills</h2>
            <Skillitem />
         </ul>
     </Fragment>

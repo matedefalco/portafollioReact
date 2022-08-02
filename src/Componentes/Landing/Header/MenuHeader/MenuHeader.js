@@ -7,16 +7,16 @@ const MenuHeader = () => {
     <Fragment>
       <ul className={classes.headerMenu}>
         <li>
-          <a href="#About">About me</a>
+          <a href="#about">About me</a>
         </li>
         <li>
-          <a href="#Skills">Skills</a>
+          <a href="#skills">Skills</a>
         </li>
         <li>
-          <a href="#Proyects">Proyects</a>
+          <a href="#proyects">Proyects</a>
         </li>
         <li>
-          <a href="#Contact">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </Fragment>
