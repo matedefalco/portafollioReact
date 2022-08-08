@@ -3,7 +3,14 @@ import logo from "../../../../logo.svg";
 
 import classes from "./SkillItem.module.css";
 
-const SkillItem = () => {
+
+const SkillItem = (props) => {
+  const estrellas = 7;
+
+  for (let index = 0; index < estrellas ; index++) {
+    <img src={logo} alt=""/>
+  }
+
   return (
     <Fragment>
       <li className={classes.skillItem}>
