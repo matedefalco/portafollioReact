@@ -1,23 +1,31 @@
-.Card{ 
+.card{
     height: 4rem;
     border-radius: 50px;
-    background: linear-gradient(145deg, #f0f0f0, #cacaca); 
-    box-shadow:  15px 15px 30px #9f9f9f,
-                -15px -15px 30px #ffffff; 
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  15px 15px 30px #9f9f9f,                
+                -15px -15px 30px #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
 }
 
-.CajaImagen{
+.imagenCard{
     box-sizing: border-box;
     border-radius: 50%;
-    height: 75%;
+    height: 50px;
     border: solid;
     overflow: hidden;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 
-.CajaImagen img{
+.imagenCard img{
     height: 120%;
 }
 

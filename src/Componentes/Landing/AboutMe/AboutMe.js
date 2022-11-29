@@ -6,9 +6,9 @@ import classes from "./AboutMe.module.css";
 const AboutMe = () => {
   return (
     <Fragment>
-      <ProfileCard></ProfileCard>
-      <div className={classes.caja}>
+      <div className={classes.cajaAbout}>
         <h2>About Me</h2>
+        <ProfileCard></ProfileCard>
         <div id="about" className={classes.about}>
           <div className={classes.aboutItem} id="dev">
             <p>

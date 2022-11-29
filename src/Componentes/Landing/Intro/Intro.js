@@ -15,7 +15,7 @@ const Intro = () => {
         </div>
         <div className={classes.textoPresentacion}>
           <h1>HEY, I´M SUKA</h1>
-          <p>This is my portfolio!</p>
+          <h3>This is my portfolio!</h3>
           <div className={classes.cta}>
           <Button title="CONTACTAME" ></Button>
           <Button title="SOCIAL LINKS" ></Button>
