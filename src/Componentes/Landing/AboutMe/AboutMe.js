@@ -1,10 +1,12 @@
 import { Fragment } from "react";
+import ProfileCard from "../../UI/ProfileCard/ProfileCard";
 
 import classes from "./AboutMe.module.css";
 
 const AboutMe = () => {
   return (
     <Fragment>
+      <ProfileCard></ProfileCard>
       <div className={classes.caja}>
         <h2>About Me</h2>
         <div id="about" className={classes.about}>

@@ -1,0 +1,16 @@
+a{
+    text-decoration: none;
+}
+
+a button{
+    color: white;
+    margin-right: 10px;
+    background-color: purple;
+    border: 0px solid;
+    padding: 15px;
+    border-radius: 8px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}

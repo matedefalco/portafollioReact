@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import Button from "../../UI/Button/Button";
 import profilePicture from "../../../media/profilePicture.png";
 
 import classes from "./Intro.module.css";
@@ -16,9 +17,8 @@ const Intro = () => {
           <h1>HEY, I´M SUKA</h1>
           <p>This is my portfolio!</p>
           <div className={classes.cta}>
-            <a href="mailto:mateodefalco1@gmail.com" target="_blank" rel="noreferrer">
-              <button >CONTACT ME</button>
-            </a>
+            <Button></Button>
+            <Button></Button>
             <a href="http://sukadf.eth.limo/" target="_blank" rel="noreferrer">
               <button>SOCIAL LINKS</button>
             </a>

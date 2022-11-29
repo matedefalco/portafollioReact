@@ -1,0 +1,28 @@
+.Card{ 
+    height: 4rem;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca); 
+    box-shadow:  15px 15px 30px #9f9f9f,
+                -15px -15px 30px #ffffff; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.CajaImagen{
+    box-sizing: border-box;
+    border-radius: 50%;
+    height: 75%;
+    border: solid;
+    overflow: hidden;
+}
+
+.CajaImagen img{
+    height: 120%;
+}
+
+
+
+
+
+
