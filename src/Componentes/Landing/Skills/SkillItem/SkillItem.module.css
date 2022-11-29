@@ -1,0 +1,11 @@
+.skillItem{
+    list-style: none;
+    min-width: 200px; 
+}
+
+.estrellas{
+    display: flex;
+    flex-direction: row;
+    max-width: 30px;
+    align-content:space-between;
+}
