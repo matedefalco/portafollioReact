@@ -4,20 +4,20 @@
     box-sizing: border-box;
     align-items: center;
     justify-content: space-between ;
-    width: 75%;
+    width: 50%;
 }
 
 .headerMenu li{
     justify-content: space-around;
     list-style: none;
-    padding-right: 5rem;
+    padding-right: 2rem;
 }
 
 .headerMenu li a{
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 16px;
     transition: 0.5s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;

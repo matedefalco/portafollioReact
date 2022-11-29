@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import logo from "../../../logo.svg";
+import profilePicture from "../../../media/profilePicture.png";
 
 import classes from "./Intro.module.css";
 
@@ -8,7 +8,7 @@ const Intro = () => {
     <Fragment>
       <div className={classes.intro}>
         <div className={classes.imagenPerfil}>
-          <img src={logo} alt=""></img>
+          <img src={profilePicture} alt=""></img>
         </div>
         <div className={classes.textoPresentacion}>
           <h1>HEY, I´M SUKA</h1>
