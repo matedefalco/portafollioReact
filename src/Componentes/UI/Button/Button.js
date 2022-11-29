@@ -1,10 +1,10 @@
 import { Fragment } from "react";
 import "./Button.css";
 
-const Button = () => {
+const Button = (props) => {
   return <Fragment>
-    <a href="mailto:mateodefalco1@gmail.com" target="_blank" rel="noreferrer">
-        <button>CONTACT ME</button>
+    <a href={props.ref} target="_blank" rel="noreferrer">
+        <button>{props.title}</button>
     </a>
   </Fragment>;
 };
