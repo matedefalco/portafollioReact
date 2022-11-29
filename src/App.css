@@ -2,3 +2,7 @@
   text-align: center;
   height: 100%;
 }
+
+:root{
+  --header-height: 5rem;
+}

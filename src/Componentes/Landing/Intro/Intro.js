@@ -14,7 +14,7 @@ const Intro = () => {
         </div>
         <div className={classes.textoPresentacion}>
           <h1>HEY, I´M SUKA</h1>
-          <p>This is my portafolio!</p>
+          <p>This is my portfolio!</p>
           <div className={classes.cta}>
             <a href="mailto:mateodefalco1@gmail.com" target="_blank" rel="noreferrer">
               <button >CONTACT ME</button>

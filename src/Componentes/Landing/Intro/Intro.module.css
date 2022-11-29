@@ -1,5 +1,6 @@
 .intro{
-    height: 30rem;
+    padding-top: var(--header-height);
+    height: 24rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -16,7 +17,7 @@
 .cajaImagenPerfil{
     box-sizing: border-box;
     border-radius: 50%;
-    height: 50%;
+    height: 75%;
     border: solid;
     overflow: hidden;
 }
