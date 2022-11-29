@@ -13,7 +13,7 @@ const MenuHeader = () => {
           <a href="#skills">Skills</a>
         </li>
         <li>
-          <a href="#proyects">Proyects</a>
+          <a href="#proyects">Projects</a>
         </li>
         <li>
           <a href="#contact">Contact</a>

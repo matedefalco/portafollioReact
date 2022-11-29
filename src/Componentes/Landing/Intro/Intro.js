@@ -8,14 +8,20 @@ const Intro = () => {
     <Fragment>
       <div className={classes.intro}>
         <div className={classes.imagenPerfil}>
-          <img src={profilePicture} alt=""></img>
+          <div className={classes.cajaImagenPerfil}>
+            <img src={profilePicture} alt=""></img>
+          </div>
         </div>
         <div className={classes.textoPresentacion}>
           <h1>HEY, I´M SUKA</h1>
           <p>This is my portafolio!</p>
           <div className={classes.cta}>
-            <button>CONTACT ME</button>
-            <button>SOCIAL LINKS</button>
+            <a href="mailto:mateodefalco1@gmail.com" target="_blank" rel="noreferrer">
+              <button >CONTACT ME</button>
+            </a>
+            <a href="http://sukadf.eth.limo/" target="_blank" rel="noreferrer">
+              <button>SOCIAL LINKS</button>
+            </a>
           </div>
         </div>
       </div>
