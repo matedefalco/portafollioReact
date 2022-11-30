@@ -19,18 +19,10 @@
     height: 50px;
     border: solid;
     overflow: hidden;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
 }
 
 .imagenCard img{
     height: 120%;
 }
-
-
-
-
 
 

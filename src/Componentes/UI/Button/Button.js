@@ -3,9 +3,7 @@ import "./Button.css";
 
 const Button = (props) => {
   return <Fragment>
-    <a href={props.ref} target="_blank" rel="noreferrer">
-        <button>{props.title}</button>
-    </a>
+    <button className="buttonUI">{props.title}</button>
   </Fragment>;
 };
 

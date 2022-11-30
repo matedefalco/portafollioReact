@@ -17,8 +17,10 @@ const Intro = () => {
           <h1>HEY, I´M SUKA</h1>
           <h3>This is my portfolio!</h3>
           <div className={classes.cta}>
-          <Button title="CONTACTAME" ></Button>
-          <Button title="SOCIAL LINKS" ></Button>
+          <Button title="CONTACT ME" ></Button>
+          <Button title="SOCIAL LINKS">
+            <a href="https://sukadf.eth.limo" target="_blank" rel="noreferrer" />
+          </Button>
             <a href="http://sukadf.eth.limo/" target="_blank" rel="noreferrer">
               <button>SOCIAL LINKS</button>
             </a>
