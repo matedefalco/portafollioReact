@@ -17,13 +17,12 @@ const Intro = () => {
           <h1>HEY, I´M SUKA</h1>
           <h3>This is my portfolio!</h3>
           <div className={classes.cta}>
-          <Button title="CONTACT ME" ></Button>
-          <Button title="SOCIAL LINKS">
-            <a href="https://sukadf.eth.limo" target="_blank" rel="noreferrer" />
-          </Button>
-            <a href="http://sukadf.eth.limo/" target="_blank" rel="noreferrer">
-              <button>SOCIAL LINKS</button>
-            </a>
+          <a href="mailto:mateodefalco1@gmail.com" target="_blank" rel="noreferrer">
+            <Button title="CONTACT ME" />
+          </a>
+          <a href="https://sukadf.eth.limo" target="_blank" rel="noreferrer">
+            <Button title="SOCIAL LINKS" />
+          </a>
           </div>
         </div>
       </div>
