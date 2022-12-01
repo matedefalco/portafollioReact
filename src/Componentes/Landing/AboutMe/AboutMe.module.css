@@ -1,6 +1,5 @@
 .cajaAbout{
     border-top: 1px solid grey;
-    background-color: orange;
 }
 
 .about p{
@@ -8,6 +7,12 @@
     background-color: purple;
     color: white;
     padding: 24px;    
+}
+
+.cajaAboutCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 

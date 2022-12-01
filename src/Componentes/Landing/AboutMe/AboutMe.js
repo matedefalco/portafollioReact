@@ -8,7 +8,10 @@ const AboutMe = () => {
     <Fragment>
       <div className={classes.cajaAbout}>
         <h2>About Me</h2>
-        <ProfileCard></ProfileCard>
+        <div className={classes.cajaAboutCards}>
+          <ProfileCard></ProfileCard>
+          <ProfileCard></ProfileCard>
+        </div>
         <div id="about" className={classes.about}>
           <div className={classes.aboutItem} id="dev">
             <p>
