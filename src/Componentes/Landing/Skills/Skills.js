@@ -6,14 +6,18 @@ import classes from "./Skills.module.css";
 
 const Skills = () => {
   const skills = [
-    { id: "c1", imagen: logo, estrellas: 2 },
-    { id: "c3", imagen: logo, estrellas: 3 },
-    { id: "c4", imagen: logo, estrellas: 2 },
-    { id: "c5", imagen: logo, estrellas: 4 },
-    { id: "c6", imagen: logo, estrellas: 5 },
-    { id: "c7", imagen: logo, estrellas: 1 },
-    { id: "c8", imagen: logo, estrellas: 3 },
-    { id: "c9", imagen: logo, estrellas: 2 },
+    { id: "HTML", imagen: logo, estrellas: 4 },
+    { id: "CSS", imagen: logo, estrellas: 3 },
+    { id: "JAVA SCRIPT", imagen: logo, estrellas: 3 },
+    { id: "LARAVEL", imagen: logo, estrellas: 2 },
+    { id: "PHP", imagen: logo, estrellas: 2 },
+    { id: "GIT HUB", imagen: logo, estrellas: 3 },
+    { id: "SQL", imagen: logo, estrellas: 2 },
+    { id: "GOOGLE ANALYTICS", imagen: logo, estrellas: 4 },
+    { id: "GOOGLE TAG MANAGER", imagen: logo, estrellas: 4 },
+    { id: "JIRA", imagen: logo, estrellas: 4 },
+    { id: "SOLIDITY", imagen: logo, estrellas: 4 },
+    { id: "REACT", imagen: logo, estrellas: 3 },
   ];
 
   const itemSkills = (
