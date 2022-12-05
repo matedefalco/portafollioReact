@@ -12,10 +12,7 @@ const ProfileCard = (props) => {
             <h1>Titulo</h1>
         </div>
         <div className={classes.descripcion}>
-            <p>Desde 2019 trabajo en el desarrollo web. Me recibí en Digital
-              House como Programador Web Full Stack. Luego de eso, comencé a
-              instruirme en distintos frameworks. Más que nada maquetado de
-              Front End.</p>
+            <p>{props.text}</p>
         </div>
     </div>
   </Fragment>;

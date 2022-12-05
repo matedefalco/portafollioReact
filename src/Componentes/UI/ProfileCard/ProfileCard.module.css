@@ -1,14 +1,14 @@
 .card{
-    height: 25rem;
+    box-sizing: content-box;
     width: 20rem;
     border-radius: 50px;
-    border: blue solid;
-    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    /* border: blue solid; */
+    background: #e0e0e0;
     box-shadow:  15px 15px 30px #9f9f9f,                
                 -15px -15px 30px #ffffff;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
@@ -18,8 +18,8 @@
 
 .imagenCard{
     border-radius: 50%;
-    height: 5rem;
-    width: 5rem;
+    height: 8rem;
+    width: 8rem;
     border: solid;
     overflow: hidden;
 }
@@ -29,7 +29,7 @@
 }
 
 .descripcion{
-    padding: 8px;
+    padding: 16px;
 }
 
 
