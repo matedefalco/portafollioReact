@@ -1,0 +1,23 @@
+.roadmapBox{
+    padding: 2rem;
+}
+
+
+.roadmapDate{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+}
+
+.roadmapTitle{
+    font-size: 14px;
+}
+
+.roadmapCopy{
+    font-size: 13px;
+}
+
+.roadmapSkills{
+    font-size: 13px;
+    color: rgba(115, 116, 117, 0.706);
+}

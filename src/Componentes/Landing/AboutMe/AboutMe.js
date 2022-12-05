@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import ProfileCard from "../../UI/ProfileCard/ProfileCard";
+import Roadmap from "./Roadmap/Roadmap";
 
 import classes from "./AboutMe.module.css";
 
@@ -12,10 +12,8 @@ let titulo = "Título";
     <Fragment>
       <div className={classes.cajaAbout}>
         <h2>About Me</h2>
+        <Roadmap />
         <div className={classes.cajaAboutCards}>
-          <ProfileCard titulo ={titulo} text={texto1}></ProfileCard>
-          <ProfileCard titulo ={titulo} text={texto2}></ProfileCard>
-          <ProfileCard titulo ={titulo} text={texto3}></ProfileCard>
         </div>
       </div>
     </Fragment>
