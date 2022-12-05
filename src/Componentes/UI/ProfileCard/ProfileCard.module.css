@@ -1,6 +1,6 @@
 .card{
-    box-sizing: content-box;
-    width: 20rem;
+    box-sizing: border-box;
+    min-width: 8rem;
     border-radius: 50px;
     /* border: blue solid; */
     background: #e0e0e0;
@@ -9,12 +9,20 @@
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
+    padding-top: 2rem;
     align-items: center;
+    scroll-snap-align: start;
+    transition: all 0.2s;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
 }
+
+.card:hover {
+    color: white;
+    background: orange;
+  }
 
 .imagenCard{
     border-radius: 50%;
